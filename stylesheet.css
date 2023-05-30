@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3";
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+
+header {
+    background-color: blueviolet;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: green;
+}
+
+/* esto afecta solo a la pagina index */
+.moto{
+    display: inline-block;
+    border: solid black;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 25%;
+    height: auto;
+    margin: 5%;
+}
+
+main .moto img{
+    width: 100%;
+    height: 150px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+main{
+    background-color: red;
+    margin-top: 45px;
+    
+    
+}
+
+footer{
+    background-color: grey;
+}
+
+img.logo{
+    border-radius: 100%;
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    
+}
+/* esto afecta a la pagina consultanos */
+
+#tituloConsultanos{
+    margin-top: 54px;
+}
+.gridConsultanos{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 50px;
+    
+    
+}
+.redesSociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main section form {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+main section form :nth-child(6){
+    width: 50px;
+}
+
+.redesSociales img{
+    width: 100px;
+    height: auto;
+    background-color: transparent;
+
+}
+
+.horarios {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.mapaConsultanos {
+    width: 500px;
+    height: 500px;
+
+}
+
+
+
+
+
+
+/* esto afecta a la pagina benelli302 */
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;   
+}
+
+main .carruselBenelli img{
+    width: 150px;
+    height: auto;
+}
+    
+/* aca empiezo a trabajar en la pagina "donde estamos */
+#layout{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+        "navegacion navegacion navegacion"
+        "contMain contMain contMain"
+        "pie pie pie"
+}
+header{
+    grid-area: navegacion;
+}
+
+main{
+    grid-area: contMain;
+}
+footer{
+    grid-area: pie;
+}
