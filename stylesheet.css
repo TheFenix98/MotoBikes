@@ -29,6 +29,7 @@ header {
     position:fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 nav {
@@ -138,9 +139,16 @@ main section form :nth-child(6){
     border-collapse: collapse;   
 }
 
-main .carruselBenelli img{
-    width: 150px;
-    height: auto;
+#carouselExampleIndicators{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#carouselExampleIndicators img{
+    width: auto;
+    height: 500px;
 }
     
 /* aca empiezo a trabajar en la pagina "donde estamos */
