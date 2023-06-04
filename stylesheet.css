@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Source Sans 3";
+    
+    
 }
 
 ul{
@@ -19,6 +21,7 @@ li a {
     display: block;
     text-align: center;
     padding: 16px;
+    margin-top: 10px;
     color: yellowgreen;
     text-decoration: none;
 }
@@ -58,7 +61,7 @@ h1{
 
 main{
     background-color: red;
-    margin-top: 45px;
+    margin-top: 70px;
     
     
 }
@@ -68,8 +71,8 @@ footer{
 }
 
 img.logo{
-    border-radius: 100%;
-    width: 50px;
+    border-radius: 70px;
+    width: 70px;
     height: auto;
     display: inline-block;
     
@@ -140,15 +143,22 @@ main section form :nth-child(6){
 }
 
 #carouselExampleIndicators{
-    position: relative;
-    width: 70%;
-    margin: 0 auto;
+
+    display: inline-block;
+    border: solid black;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 50%;
+    height: 50%;
+    margin: 5%;
+
 
 }
 
 #carouselExampleIndicators img{
-    width: auto;
-    height: 500px;
+    height: 300px;
+    width: 300px;
+    
 }
     
 /* aca empiezo a trabajar en la pagina "donde estamos */
@@ -169,4 +179,35 @@ main{
 }
 footer{
     grid-area: pie;
+}
+
+/* prueba grid */
+
+.card img{
+    width: 100% !important;
+    height: 150px !important;
+}
+
+nav a img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.navbar-light{
+    background-color: blueviolet !important;
+}
+nav li a{
+    color: yellowgreen !important;
+}
+.container-fluid{
+    background-color: red;
+    margin-top: 80px;
+}
+
+.navbar{
+    position:fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1 !important;
 }
