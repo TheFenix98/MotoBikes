@@ -132,4 +132,29 @@ main section form:nth-child(6) {
 h3 {
   color: white;
   margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#carouselExampleIndicators {
+  display: inline-block;
+  border: solid black;
+  box-sizing: border-box;
+  box-sizing: content-box;
+  width: 50%;
+  height: 50%;
+  margin: 5%;
+}
+
+#carouselExampleIndicators img {
+  height: 300px;
+  width: 300px;
 }/*# sourceMappingURL=main.css.map */
