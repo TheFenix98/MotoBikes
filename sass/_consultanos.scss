@@ -17,25 +17,22 @@
     margin-bottom: 5px;
 }
 
-main{
-    section{
-        form{
-            margin-top: 54px;
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-            justify-content: center;
+main {
+    section {
+      form {
+        margin-top: 54px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+  
+        &:nth-child(6) {
+          width: 50px;
         }
+      }
     }
-}
-
-main{
-    section{
-        form:nth-child(6){
-            width: 50px;
-        }
-    }
-}
+  }
+  
 
 .redesSociales{
     img{

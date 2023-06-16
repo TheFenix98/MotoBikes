@@ -44,6 +44,13 @@ footer p {
   color: aliceblue;
 }
 
+footer div a {
+  text-decoration: none;
+}
+footer div span {
+  margin-left: 2px;
+}
+
 .logo {
   border-radius: 70px;
   width: 70px;
@@ -100,7 +107,6 @@ main section form {
   gap: 5px;
   justify-content: center;
 }
-
 main section form:nth-child(6) {
   width: 50px;
 }
