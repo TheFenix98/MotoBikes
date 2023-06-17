@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -81,6 +82,13 @@ img .logo {
   height: 150px !important;
 }
 
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: perspective(1000px) translateZ(50px);
+}
+
 #tituloConsultanos {
   margin-top: 80px;
 }
@@ -107,8 +115,26 @@ main section form {
   gap: 5px;
   justify-content: center;
 }
-main section form:nth-child(6) {
-  width: 50px;
+main section form textarea {
+  width: 95%;
+  transition: transform 1.3s;
+}
+main section form textarea:focus {
+  background-color: beige;
+  transform: scale(1);
+  width: 100%;
+}
+main input {
+  width: 95%;
+  transition: all 0.3s;
+}
+main input:focus {
+  background-color: beige;
+  width: 100%;
+}
+
+.boton-enviar {
+  width: 55px;
 }
 
 .redesSociales img {
@@ -129,21 +155,40 @@ main section form:nth-child(6) {
 .mapaConsultanos {
   width: 400px;
   height: 400px;
+  position: relative;
+  align-items: center;
 }
 
-h3 {
+.mensaje {
   color: white;
   margin-top: 10px;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.table-container {
+  width: 50%;
+  margin-left: 10px;
 }
 
-table, th, td {
-  border: 1px solid black;
+.custom-table {
+  width: 100%;
+  margin: 0;
   border-collapse: collapse;
+  text-align: left;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+.custom-table th, .custom-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: red;
+}
+.custom-table th {
+  font-weight: bold;
+}
+.custom-table tr:nth-child(even) {
+  background-color: #ffe6e6; /* Tono de rojo más suave */
+}
+.custom-table tr:hover {
+  background-color: #ffb3b3; /* Rojo más intenso al pasar el cursor */
 }
 
 #carouselExampleIndicators {

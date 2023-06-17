@@ -1,12 +1,35 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;   
+.table-container {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+
+.custom-table {
+width: 100%;
+margin: 0;
+border-collapse: collapse;
+text-align: left;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 10);
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: red;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;   
+th {
+    font-weight: bold;
 }
+
+tr:nth-child(even) {
+    background-color: #ffe6e6; /* Tono de rojo más suave */
+}
+
+tr:hover {
+    background-color: #ffb3b3; /* Rojo más intenso al pasar el cursor */
+}
+}
+
 
 #carouselExampleIndicators{
     display: inline-block;

@@ -4,3 +4,10 @@
         height: 150px !important;
     }
 }
+.card{
+    transition: transform 0.3s;
+    &:hover{
+        transform: perspective(1000px) translateZ(50px);;
+    }
+}
+

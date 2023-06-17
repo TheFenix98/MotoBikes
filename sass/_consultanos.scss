@@ -25,14 +25,33 @@ main {
         flex-direction: column;
         gap: 5px;
         justify-content: center;
-  
-        &:nth-child(6) {
-          width: 50px;
+        textarea {
+            width: 95%;
+            transition: transform 1.3s;   
+          }
+    
+        textarea:focus {
+            background-color: beige;
+            transform: scale(1);
+            width: 100%;
+          }
+        }
+        }
+        input{
+            width: 95%;
+            transition: all 0.3s;
+        &:focus{
+            background-color: beige;
+            width: 100%;
+
+        }
         }
       }
-    }
-  }
+
   
+.boton-enviar{
+    width: 55px;
+}
 
 .redesSociales{
     img{
@@ -54,10 +73,12 @@ main {
 .mapaConsultanos {
     width: 400px;
     height: 400px;
+    position: relative;
+    align-items: center;
 
 }
 
-h3{
+.mensaje{
     color: white;
     margin-top: 10px; ;
 }
