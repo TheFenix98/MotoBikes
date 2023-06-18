@@ -12,3 +12,27 @@
     }
 }
 
+@font-face {
+    font-family: "Clegane";
+    src: url(../fonts/Clegane.ttf);
+}
+.tituloIndex{
+    width: 100%;
+    margin-top: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.tituloPrimeraMitad{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+.tituloSegundaMitad{
+    color: #D7350F;
+    font-family: Clegane;
+    font-size: 100px;
+}
