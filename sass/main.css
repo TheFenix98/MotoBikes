@@ -47,9 +47,10 @@ footer p {
 
 footer div a {
   text-decoration: none;
+  margin-left: 10px;
 }
 footer div span {
-  margin-left: 2px;
+  margin-left: 1px;
 }
 
 .logo {
@@ -77,6 +78,9 @@ img .logo {
   display: inline-block;
 }
 
+.card h5 {
+  color: blue;
+}
 .card img {
   width: 100% !important;
   height: 150px !important;
