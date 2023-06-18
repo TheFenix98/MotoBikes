@@ -146,6 +146,13 @@ img .logo {
   font-size: 100px;
 }
 
+body {
+  background-image: url(../imagenes/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 #tituloConsultanos {
   margin-top: 80px;
 }
