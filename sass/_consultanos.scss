@@ -15,6 +15,15 @@
     align-items: center;
     margin-top: 120px;
     margin-bottom: 5px;
+    gap: 2px;
+    img {
+        transition: transform 0.7s;
+      
+        &:hover {
+          transform: perspective(1000px) rotateY(360deg);
+        }
+      }
+      
 }
 
 main {

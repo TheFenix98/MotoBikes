@@ -146,13 +146,6 @@ img .logo {
   font-size: 100px;
 }
 
-body {
-  background-image: url(../imagenes/fondo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 #tituloConsultanos {
   margin-top: 80px;
 }
@@ -170,6 +163,13 @@ body {
   align-items: center;
   margin-top: 120px;
   margin-bottom: 5px;
+  gap: 2px;
+}
+.redesSociales img {
+  transition: transform 0.7s;
+}
+.redesSociales img:hover {
+  transform: perspective(1000px) rotateY(360deg);
 }
 
 main section form {
