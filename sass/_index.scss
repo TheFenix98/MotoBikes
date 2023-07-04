@@ -1,5 +1,4 @@
 .card{
-    h5{color: $color-tituloTarjeta;}
     img{
         width: 100% !important;
         height: 150px !important;
@@ -35,4 +34,38 @@
     color: #D7350F;
     font-family: Clegane;
     font-size: 100px;
+}
+
+h5{
+    font-family: "Bebas Neue";
+}
+.precios {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    .precioLista,
+    .oferta {
+        display: inline-block;
+
+        h6 {
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .precioLista {
+        h6 {
+            background-color: red;
+        }
+    }
+
+    .oferta {
+        h6 {
+            background-color: black;
+        }
+    }
 }

@@ -93,7 +93,7 @@ footer div span {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .nav-item {
@@ -107,9 +107,6 @@ img .logo {
   display: inline-block;
 }
 
-.card h5 {
-  color: blue;
-}
 .card img {
   width: 100% !important;
   height: 150px !important;
@@ -144,6 +141,34 @@ img .logo {
   color: #D7350F;
   font-family: Clegane;
   font-size: 100px;
+}
+
+h5 {
+  font-family: "Bebas Neue";
+}
+
+.precios {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.precios .precioLista,
+.precios .oferta {
+  display: inline-block;
+}
+.precios .precioLista h6,
+.precios .oferta h6 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+.precios .precioLista h6 {
+  background-color: red;
+}
+.precios .oferta h6 {
+  background-color: black;
 }
 
 #tituloConsultanos {
@@ -181,7 +206,7 @@ main section form {
 }
 main section form textarea {
   width: 95%;
-  transition: transform 1.3s;
+  transition: transform 0.3s;
 }
 main section form textarea:focus {
   background-color: beige;
@@ -268,6 +293,10 @@ main input:focus {
 #carouselExampleIndicators img {
   height: 300px;
   width: 300px;
+}
+
+.carousel-control {
+  z-index: 0;
 }
 
 .cabecera img {

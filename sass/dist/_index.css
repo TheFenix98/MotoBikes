@@ -1,0 +1,46 @@
+.card img {
+  width: 100% !important;
+  height: 150px !important;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: perspective(1000px) translateZ(50px);
+}
+
+@font-face {
+  font-family: "Clegane";
+  src: url(../fonts/Clegane.ttf);
+}
+.tituloIndex {
+  width: 100%;
+  margin-top: 78px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tituloPrimeraMitad {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+}
+
+.tituloSegundaMitad {
+  color: #D7350F;
+  font-family: Clegane;
+  font-size: 100px;
+}
+
+.precios {
+  width: auto;
+}
+
+.precios h6 {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  color: white;
+}
