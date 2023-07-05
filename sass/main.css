@@ -62,6 +62,10 @@ nav a img {
   transform: scaleX(1);
 }
 
+.nav-link {
+  font-family: "Comfortaa";
+}
+
 main {
   background-color: gray;
   margin-top: 70px;
@@ -74,12 +78,16 @@ footer p {
   color: aliceblue;
 }
 
+footer div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 footer div a {
   text-decoration: none;
   margin-left: 10px;
 }
 footer div span {
   margin-left: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .logo {
@@ -169,6 +177,40 @@ h5 {
 }
 .precios .oferta h6 {
   background-color: black;
+}
+
+@media (max-width: 600px) {
+  .tituloPrimeraMitad {
+    font-size: 80px;
+  }
+  .tituloSegundaMitad {
+    font-size: 80px;
+  }
+}
+@keyframes parpadeo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.animacionParpadeo {
+  animation: blink 2s infinite;
 }
 
 #tituloConsultanos {

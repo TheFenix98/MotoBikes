@@ -69,3 +69,40 @@ h5{
         }
     }
 }
+
+@media (max-width: 600px) {
+    .tituloPrimeraMitad{
+        font-size: 80px;
+    }
+    .tituloSegundaMitad {
+        font-size: 80px;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animacionParpadeo {
+    animation: blink 2s infinite;
+  }

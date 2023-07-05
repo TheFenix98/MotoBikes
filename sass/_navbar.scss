@@ -21,7 +21,7 @@ nav{
                 padding: 16px;
                 margin-top: 10px;
                 color: white;
-                text-decoration: none;
+                text-decoration: none; 
                   
             }
         }
@@ -64,7 +64,9 @@ nav{
     transform: scaleX(1);
   }
   
-
+.nav-link{
+    font-family: "Comfortaa";
+}
 
 main{
     background-color: gray;
@@ -81,12 +83,17 @@ footer{
 
 footer{
     div{
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
         a{
             text-decoration: none;
             margin-left: 10px ;
+            
         }
         span{
-            margin-left:  1px; ;
+            margin-left:  1px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     }
 }
