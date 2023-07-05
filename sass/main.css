@@ -213,6 +213,12 @@ h5 {
   animation: blink 2s infinite;
 }
 
+@media (max-width: 720px) {
+  .card {
+    width: 90%;
+  }
+}
+
 #tituloConsultanos {
   margin-top: 80px;
 }
@@ -228,9 +234,16 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 55px;
   margin-bottom: 5px;
   gap: 2px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  background-color: black;
+}
+.redesSociales h2 {
+  color: aliceblue;
+  font-family: "Courier Prime";
 }
 .redesSociales img {
   transition: transform 0.7s;
@@ -343,4 +356,12 @@ main input:focus {
 
 .cabecera img {
   width: 200px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+img {
+  margin-bottom: 5px;
 }/*# sourceMappingURL=main.css.map */

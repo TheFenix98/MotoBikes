@@ -106,3 +106,9 @@ h5{
 .animacionParpadeo {
     animation: blink 2s infinite;
   }
+
+.card{
+    @media (max-width: 720px){
+        width: 90%;
+    }
+}
