@@ -1,7 +1,7 @@
 @charset "UTF-8";
 main {
-  background: rgb(34, 193, 195);
-  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  background: rgb(254, 254, 1);
+  background: linear-gradient(180deg, rgb(254, 254, 1) 0%, rgb(241, 102, 10) 50%, rgba(252, 2, 2, 0.929) 100%);
 }
 
 body {
@@ -371,20 +371,24 @@ h2 {
   box-shadow: 0 2px 4px rgb(0, 0, 0);
   margin-bottom: 10px;
 }
-.custom-table th, .custom-table td {
+
+th, td {
   padding: 10px;
   border-bottom: 1px solid #ccc;
-  color: red;
+  color: #000; /* Cambiamos el color del texto a negro */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.custom-table th {
+
+th {
   font-weight: bold;
 }
-.custom-table tr:nth-child(even) {
-  background-color: #ffe6e6; /* Tono de rojo más suave */
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Cambiamos el fondo a un tono de blanco más claro */
 }
-.custom-table tr:hover {
-  background-color: #ffb3b3; /* Rojo más intenso al pasar el cursor */
+
+tr:hover {
+  background-color: #e6e6e6; /* Cambiamos el fondo a un tono de blanco más oscuro al pasar el cursor */
 }
 
 #carouselExampleIndicators {

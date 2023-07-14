@@ -25,29 +25,28 @@ margin: 0;
 border-collapse: collapse;
 text-align: left;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 10);
-margin-bottom: 10px;
+margin-bottom: 10px;}
 
 
 th, td {
     padding: 10px;
     border-bottom: 1px solid #ccc;
-    color: red;
+    color: #000; /* Cambiamos el color del texto a negro */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 th {
     font-weight: bold;
-    
 }
 
 tr:nth-child(even) {
-    background-color: #ffe6e6; /* Tono de rojo más suave */
+    background-color: #f2f2f2; /* Cambiamos el fondo a un tono de blanco más claro */
 }
 
 tr:hover {
-    background-color: #ffb3b3; /* Rojo más intenso al pasar el cursor */
+    background-color: #e6e6e6; /* Cambiamos el fondo a un tono de blanco más oscuro al pasar el cursor */
 }
-}
+
 
 
 #carouselExampleIndicators{
